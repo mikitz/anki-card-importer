@@ -1,11 +1,14 @@
 # Anki-Helper-Bot
 
 ## Description
+
 This Python notebook does:
+    
     Study Method:
         * It reads a TXT file to determine whether I do listening or reading for the day and then writes to the same TXT file that day's activity.
         * It scans the databases of all languages and pulls new words that were inserted into the DBs 14 days ago.
             * I then write sentences using these words.
+    
     For Anki:
         * It takes the input of words from a user-defined language within Flashcards.xlsx.
         * Next, it uses those words and that defined language to determine what website to scrape.
