@@ -1,6 +1,6 @@
 # Anki-Helper-Bot
 
-### What this script does
+### What this Notebook Does
 
 **Study Method**
 * It reads a TXT file to determine whether I do listening or reading for the day and then writes to the same TXT file that day's activity.
@@ -13,4 +13,3 @@
 * After than, it scrapes sentences from the appropriate website, then saves them to an XLSX file.
 * It uses the words found in Flashcards.xlsx and the newly scraped sentences to create two types of notes within Anki: a custom front-back type note and a custom cloze type note.
 * Finally, it imports these newly created cards into the local instance of Anki using the AnkiConnect add-on. (https://github.com/FooSoft/anki-connect)
-  
